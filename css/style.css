@@ -2,6 +2,31 @@
 /* 아이디 선택자(#) : 문서 내에서 단한번만 사용
    클래스 선택자(.) : 문서 내에서 여러번 반복/재사용
 */
+/*================스타일 공통속성=====================*/
+.mx-auto { /* margin + x-axit + auto */
+    margin:0 auto; /* 상하 0, 좌우 auto(=자동으로) */
+   
+}
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px 
+}
+
+.my-50{
+    margin-top: 50px;
+    margin-bottom: 50px;    
+
+}
+.text-center {
+    text-align: center
+}
+
+/*====================1.스타일 초기화=================*/
+
+*{
+    margin: 0;
+    padding: 0
+}
 
 .logo {
     width: 100px;
@@ -9,13 +34,36 @@
     display: block;
 }
 
-.mx-auto { /* margin + x-axit + auto */
-    margin:0 auto; /* 상하 0, 좌우 auto(=자동으로) */
-   
+.nav{
+    height: 60px;
+    line-height: 60px ; /* 행-높이(=행간): 높이와 같게하면, 수직중앙에 배치 */
 }
-.my-50{
-    margin-top: 50px;
-    margin-bottom: 50px;
 
+.bg-nav {
+    background-color: #005891; /* 16진수HEX 색상코드 */
 }
+/* 
+ :link - link로 지정된 텍스트
+ :visited - link 텍스트를 클릭한 이후
+ :hover - hand+over : hover
+ :actove - link 텍스트를 클릭하고 있는 동안
+ ==>LoVe, HAte순소를 지켜야, a 태그의 스타일이 제대로 적용됨
+*/
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover { /* hover - 가상요소 선택자, hand : hover */
+    color: #fcff00;
+    text-decoration: none;  /* 텍스트-꾸밈: 안함 */
+}
+
+.cf {
+    width: 800px;
+    height: 500px;
+    display: block;
+}
+
 
