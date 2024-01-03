@@ -15,10 +15,20 @@
 .my-50{
     margin-top: 50px;
     margin-bottom: 50px;    
+    
+.my-30{
+    margin-top: 30px;
+    margin-bottom: 30px;   
+    }
+
 
 }
 .text-center {
     text-align: center
+}
+
+.text-upper {
+    text-transform: ;
 }
 
 /*====================1.스타일 초기화=================*/
@@ -65,5 +75,22 @@ a:hover { /* hover - 가상요소 선택자, hand : hover */
     height: 500px;
     display: block;
 }
+
+.cf-title {
+    font-size: 22px;
+}
+.cf-text {
+    font-size: 16px;
+    color: #555555;
+}
+
+.movie-poster {
+    width: 600px;
+    height: 300px;
+    font-size: 0
+}
+
+
+
 
 
