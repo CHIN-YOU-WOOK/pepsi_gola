@@ -8,5 +8,13 @@
     .cf img {
         width: 100%;
     }
+.movie-poster img {
+    width: 100vw;
+    height: 150px;
+}
+#footer {
+    margin-bottom: 50px;
+}
+
 
 } 
