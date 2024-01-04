@@ -18,13 +18,12 @@
 .my-50{
     margin-top: 50px;
     margin-bottom: 50px;    
-    
+}    
 .my-30{
     margin-top: 30px;
     margin-bottom: 30px;   
-    }
+ }
 
-}
 .text-center {
     text-align: center
 }
@@ -37,7 +36,7 @@
 
 *{
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .logo {
@@ -89,7 +88,7 @@ a:hover { /* hover - 가상요소 선택자, hand : hover */
 .movie-poster {
     width: 600px;
     height: 300px;
-    font-size: 0
+    font-size: 0;
 }
 .sns {
     font-size: 0;
@@ -98,6 +97,35 @@ a:hover { /* hover - 가상요소 선택자, hand : hover */
     background-color: #f3f3f3;
 }
 
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #005891;
+}
 
+/* ===================footer===============*/
 
+.cs-title {
+    font-size: 15px;
+    color: #005891;
+}
+.cs-number {
+    font-size: 30px;
+    font-weight: bold;
+    color: #005891;  
+}
+.cs-number a { /* 하위선택자 (후손 선택자 : 아들, 딸, ...*/
+    color: #005891;
+}
 
+.address-ko {
+    font-size: 13px;
+
+}
+.ownership-en {
+    font-size: 11px;
+}
+
+.brand {
+    font-style: italic;
+}
