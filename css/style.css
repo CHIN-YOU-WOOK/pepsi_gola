@@ -5,11 +5,14 @@
 /*================스타일 공통속성=====================*/
 .mx-auto { /* margin + x-axit + auto */
     margin:0 auto; /* 상하 0, 좌우 auto(=자동으로) */
-   
+}
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .mx-10 {
     margin-left: 10px;
-    margin-right: 10px 
+    margin-right: 10px; 
 }
 
 .my-50{
@@ -21,14 +24,13 @@
     margin-bottom: 30px;   
     }
 
-
 }
 .text-center {
     text-align: center
 }
 
 .text-upper {
-    text-transform: ;
+    text-transform: uppercase ;
 }
 
 /*====================1.스타일 초기화=================*/
@@ -57,7 +59,7 @@
  :visited - link 텍스트를 클릭한 이후
  :hover - hand+over : hover
  :actove - link 텍스트를 클릭하고 있는 동안
- ==>LoVe, HAte순소를 지켜야, a 태그의 스타일이 제대로 적용됨
+ ==>LoVe, HAte순서를 지켜야, a 태그의 스타일이 제대로 적용됨
 */
 
 a:link {
@@ -89,7 +91,12 @@ a:hover { /* hover - 가상요소 선택자, hand : hover */
     height: 300px;
     font-size: 0
 }
-
+.sns {
+    font-size: 0;
+}
+.bg-sns{
+    background-color: #f3f3f3;
+}
 
 
 
