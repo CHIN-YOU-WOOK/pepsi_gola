@@ -5,16 +5,25 @@
         width: 100vw;
         height: auto;
     }
+
     .cf img {
         width: 100%;
     }
-.movie-poster img {
-    width: 100vw;
-    height: 200px;
-}
-#footer {
-    margin-bottom: 50px;
-}
+
+    .movie-poster {
+        height: auto;
+
+    }
 
 
-} 
+    .movie-poster img {
+        width: 100vw;
+        height: auto;
+    }
+
+    #footer {
+        margin-bottom: 50px;
+    }
+
+
+}
